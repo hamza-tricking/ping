@@ -1,7 +1,7 @@
 const axios = require("axios");
 
 const BACKEND_URL = "https://backend-babybloom.onrender.com/api/health";
-const PING_INTERVAL = 5 * 60 * 1000; // 5 minutes
+const PING_INTERVAL = 15 * 60 * 1000; // 5 minutes
 
 const pingBackend = async () => {
   try {
